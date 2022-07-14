@@ -75,16 +75,16 @@ let productos = [
 ];
 
 for(const producto of productos){
-  let li = document.createElement("li");
+  let pepitp = document.createElement("li");
   li.innerHTML = `<h2>ID: ${producto.id}</h2>
                   <p>Producto: ${producto.nombre}</p>
                   <b>$${producto.precio}</b>
                  `;
-  contenedor.append(li);
+  contenedor.append(pepitp);
 }
 
 /* let container = document.querySelectorAll(".perritos");
 console.log(container); */
 
-let container = document.querySelector("#container p");
+let container = document.querySelectorAll("#perritos");
 console.log(container);

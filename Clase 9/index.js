@@ -57,3 +57,4 @@ function validarFormulario(e){
     e.target.children[0].value = "";
   }
 }
+

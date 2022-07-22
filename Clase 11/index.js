@@ -116,13 +116,14 @@ JSON.parse(data) //convertir de formato json al elemento identificado dentro de 
 */
 
 //Ejemplo practico
+//traemos los elementos del html
 let formulario = document.getElementById("formulario");
 let boton = document.getElementById("verProductos");
 let contenedor = document.getElementById("contenedor");
 
 formulario.addEventListener("submit", (e) => {
   e.preventDefault();
-
+  //esta parte trae los productos del storgae
   let listaProductos;
   let productosStorage = JSON.parse(localStorage.getItem("productos"));
 
